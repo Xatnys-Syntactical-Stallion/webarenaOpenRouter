@@ -9,13 +9,13 @@ from pathlib import Path
 
 from playwright.sync_api import sync_playwright
 
-from browser_env.env_config import (
-    ACCOUNTS,
-    GITLAB,
-    REDDIT,
-    SHOPPING,
-    SHOPPING_ADMIN,
-)
+# ~ from browser_env.env_config import (
+    # ~ ACCOUNTS,
+    # ~ GITLAB,
+    # ~ REDDIT,
+    # ~ SHOPPING,
+    # ~ SHOPPING_ADMIN,
+# ~ )
 
 HEADLESS = True
 SLOW_MO = 0
@@ -23,10 +23,10 @@ SLOW_MO = 0
 
 SITES = ["gitlab", "shopping", "shopping_admin", "reddit"]
 URLS = [
-    f"{GITLAB}/-/profile",
-    f"{SHOPPING}/wishlist/",
-    f"{SHOPPING_ADMIN}/dashboard",
-    f"{REDDIT}/user/{ACCOUNTS['reddit']['username']}/account",
+    # ~ f"{GITLAB}/-/profile",
+    # ~ f"{SHOPPING}/wishlist/",
+    # ~ f"{SHOPPING_ADMIN}/dashboard",
+    # ~ f"{REDDIT}/user/{ACCOUNTS['reddit']['username']}/account",
 ]
 EXACT_MATCH = [True, True, True, True]
 KEYWORDS = ["", "", "Dashboard", "Delete"]

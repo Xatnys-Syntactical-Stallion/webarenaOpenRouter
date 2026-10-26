@@ -6,15 +6,15 @@ from urllib.parse import urlparse
 import requests
 from playwright.sync_api import CDPSession, Page
 
-from browser_env.env_config import (
-    ACCOUNTS,
-    GITLAB,
-    MAP,
-    REDDIT,
-    SHOPPING,
-    SHOPPING_ADMIN,
-    WIKIPEDIA,
-)
+# ~ from browser_env.env_config import (
+    # ~ ACCOUNTS,
+    # ~ GITLAB,
+    # ~ MAP,
+    # ~ REDDIT,
+    # ~ SHOPPING,
+    # ~ SHOPPING_ADMIN,
+    # ~ WIKIPEDIA,
+# ~ )
 from llms.providers.openai_utils import (
     generate_from_openai_chat_completion,
 )
